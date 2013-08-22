@@ -1,0 +1,678 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://us.battle.net/api/d3/profile/Dpsk-2824/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Aug 2013 14:58:59 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Language:
+      - en-US
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json;charset=UTF-8
+    body:
+      encoding: US-ASCII
+      string: ! '{
+
+        "heroes" : [ {
+
+        "name" : "Vas",
+
+        "id" : 32351570,
+
+        "level" : 37,
+
+        "hardcore" : false,
+
+        "paragonLevel" : 0,
+
+        "gender" : 1,
+
+        "dead" : false,
+
+        "class" : "wizard",
+
+        "last-updated" : 1365105795
+
+        }, {
+
+        "name" : "Iaw",
+
+        "id" : 32576165,
+
+        "level" : 6,
+
+        "hardcore" : false,
+
+        "paragonLevel" : 0,
+
+        "gender" : 1,
+
+        "dead" : false,
+
+        "class" : "demon-hunter",
+
+        "last-updated" : 1365102110
+
+        } ],
+
+        "lastHeroPlayed" : 32351570,
+
+        "lastUpdated" : 1365105795,
+
+        "artisans" : [ {
+
+        "slug" : "blacksmith",
+
+        "level" : 6,
+
+        "stepCurrent" : 4,
+
+        "stepMax" : 5
+
+        }, {
+
+        "slug" : "jeweler",
+
+        "level" : 3,
+
+        "stepCurrent" : 0,
+
+        "stepMax" : 1
+
+        } ],
+
+        "hardcoreArtisans" : [ {
+
+        "slug" : "blacksmith",
+
+        "level" : 0,
+
+        "stepCurrent" : -1,
+
+        "stepMax" : 5
+
+        }, {
+
+        "slug" : "jeweler",
+
+        "level" : 0,
+
+        "stepCurrent" : 0,
+
+        "stepMax" : 1
+
+        } ],
+
+        "kills" : {
+
+        "monsters" : 16695,
+
+        "elites" : 629,
+
+        "hardcoreMonsters" : 0
+
+        },
+
+        "timePlayed" : {
+
+        "barbarian" : 0.0,
+
+        "demon-hunter" : 0.029,
+
+        "monk" : 0.0,
+
+        "witch-doctor" : 0.0,
+
+        "wizard" : 1.0
+
+        },
+
+        "fallenHeroes" : [ ],
+
+        "battleTag" : "dpsk#2824",
+
+        "progression" : {
+
+        "normal" : {
+
+        "act1" : {
+
+        "completed" : true,
+
+        "completedQuests" : [ {
+
+        "slug" : "the-fallen-star",
+
+        "name" : "The Fallen Star"
+
+        }, {
+
+        "slug" : "the-legacy-of-cain",
+
+        "name" : "The Legacy of Cain"
+
+        }, {
+
+        "slug" : "a-shattered-crown",
+
+        "name" : "A Shattered Crown"
+
+        }, {
+
+        "slug" : "reign-of-the-black-king",
+
+        "name" : "Reign of the Black King"
+
+        }, {
+
+        "slug" : "sword-of-the-stranger",
+
+        "name" : "Sword of the Stranger"
+
+        }, {
+
+        "slug" : "the-broken-blade",
+
+        "name" : "The Broken Blade"
+
+        }, {
+
+        "slug" : "the-doom-in-wortham",
+
+        "name" : "The Doom in Wortham"
+
+        }, {
+
+        "slug" : "trailing-the-coven",
+
+        "name" : "Trailing the Coven"
+
+        }, {
+
+        "slug" : "the-imprisoned-angel",
+
+        "name" : "The Imprisoned Angel"
+
+        }, {
+
+        "slug" : "return-to-new-tristram",
+
+        "name" : "Return to New Tristram"
+
+        } ]
+
+        },
+
+        "act2" : {
+
+        "completed" : true,
+
+        "completedQuests" : [ {
+
+        "slug" : "shadows-in-the-desert",
+
+        "name" : "Shadows in the Desert"
+
+        }, {
+
+        "slug" : "the-road-to-alcarnus",
+
+        "name" : "The Road to Alcarnus"
+
+        }, {
+
+        "slug" : "city-of-blood",
+
+        "name" : "City of Blood"
+
+        }, {
+
+        "slug" : "a-royal-audience",
+
+        "name" : "A Royal Audience"
+
+        }, {
+
+        "slug" : "unexpected-allies",
+
+        "name" : "Unexpected Allies"
+
+        }, {
+
+        "slug" : "betrayer-of-the-horadrim",
+
+        "name" : "Betrayer of the Horadrim"
+
+        }, {
+
+        "slug" : "blood-and-sand",
+
+        "name" : "Blood and Sand"
+
+        }, {
+
+        "slug" : "the-black-soulstone",
+
+        "name" : "The Black Soulstone"
+
+        }, {
+
+        "slug" : "the-scouring-of-caldeum",
+
+        "name" : "The Scouring of Caldeum"
+
+        }, {
+
+        "slug" : "lord-of-lies",
+
+        "name" : "Lord of Lies"
+
+        } ]
+
+        },
+
+        "act3" : {
+
+        "completed" : true,
+
+        "completedQuests" : [ {
+
+        "slug" : "the-siege-of-bastions-keep",
+
+        "name" : "The Siege of Bastion''s Keep"
+
+        }, {
+
+        "slug" : "turning-the-tide",
+
+        "name" : "Turning the Tide"
+
+        }, {
+
+        "slug" : "the-breached-keep",
+
+        "name" : "The Breached Keep"
+
+        }, {
+
+        "slug" : "tremors-in-the-stone",
+
+        "name" : "Tremors in the Stone"
+
+        }, {
+
+        "slug" : "machines-of-war",
+
+        "name" : "Machines of War"
+
+        }, {
+
+        "slug" : "siegebreaker",
+
+        "name" : "Siegebreaker"
+
+        }, {
+
+        "slug" : "heart-of-sin",
+
+        "name" : "Heart of Sin"
+
+        } ]
+
+        },
+
+        "act4" : {
+
+        "completed" : true,
+
+        "completedQuests" : [ {
+
+        "slug" : "fall-of-the-high-heavens",
+
+        "name" : "Fall of the High Heavens"
+
+        }, {
+
+        "slug" : "the-light-of-hope",
+
+        "name" : "The Light of Hope"
+
+        }, {
+
+        "slug" : "beneath-the-spire",
+
+        "name" : "Beneath the Spire"
+
+        }, {
+
+        "slug" : "prime-evil",
+
+        "name" : "Prime Evil"
+
+        } ]
+
+        }
+
+        },
+
+        "nightmare" : {
+
+        "act1" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ {
+
+        "slug" : "the-fallen-star",
+
+        "name" : "The Fallen Star"
+
+        }, {
+
+        "slug" : "the-legacy-of-cain",
+
+        "name" : "The Legacy of Cain"
+
+        }, {
+
+        "slug" : "a-shattered-crown",
+
+        "name" : "A Shattered Crown"
+
+        }, {
+
+        "slug" : "reign-of-the-black-king",
+
+        "name" : "Reign of the Black King"
+
+        }, {
+
+        "slug" : "sword-of-the-stranger",
+
+        "name" : "Sword of the Stranger"
+
+        }, {
+
+        "slug" : "the-broken-blade",
+
+        "name" : "The Broken Blade"
+
+        }, {
+
+        "slug" : "the-doom-in-wortham",
+
+        "name" : "The Doom in Wortham"
+
+        } ]
+
+        },
+
+        "act2" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act3" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act4" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        }
+
+        },
+
+        "hell" : {
+
+        "act1" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act2" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act3" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act4" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        }
+
+        },
+
+        "inferno" : {
+
+        "act1" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act2" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act3" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act4" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        }
+
+        }
+
+        },
+
+        "hardcoreProgression" : {
+
+        "normal" : {
+
+        "act1" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act2" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act3" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act4" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        }
+
+        },
+
+        "nightmare" : {
+
+        "act1" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act2" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act3" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act4" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        }
+
+        },
+
+        "hell" : {
+
+        "act1" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act2" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act3" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act4" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        }
+
+        },
+
+        "inferno" : {
+
+        "act1" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act2" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act3" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        },
+
+        "act4" : {
+
+        "completed" : false,
+
+        "completedQuests" : [ ]
+
+        }
+
+        }
+
+        }
+
+        }'
+    http_version: 
+  recorded_at: Thu, 22 Aug 2013 14:58:59 GMT
+recorded_with: VCR 2.5.0
