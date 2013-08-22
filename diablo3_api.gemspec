@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["idups1k@gmail.com"]
   spec.description   = %q{Simple Ruby client for Diablo 3 API}
   spec.summary       = %q{Ruby Wrapper for Diablo 3 API that let you fetch your d3 profile}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/dpsk/diablo3_api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
