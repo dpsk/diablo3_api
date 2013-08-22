@@ -13,9 +13,9 @@ Install gem:
 ```ruby
   require 'diablo3_api'
   player = Diablo3Api::Player.new("Dpsk-2824")
-  puts player.inspect
+  puts player.profile.inspect
 ```
-``player`` variable now contains information about requested profile.
+``player.profile`` now contains information about requested profile.
 
 ## Contributing
 
