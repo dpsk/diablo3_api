@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/dpsk/diablo3-api.png)](http://travis-ci.org/dpsk/diablo3-api)
+
 # Diablo3Api
 
 Ruby Wrapper for Diablo 3 API that let you fetch your d3 profile
