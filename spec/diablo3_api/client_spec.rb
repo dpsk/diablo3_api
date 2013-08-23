@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe Diablo3Api::Client do
-
   before do
     @keys = Diablo3Api::Configuration::VALID_CONFIG_KEYS
   end
@@ -19,7 +18,7 @@ describe Diablo3Api::Client do
       Diablo3Api.reset
     end
 
-    it "should inherit module configuration" do
+    it 'should inherit module configuration' do
       api = Diablo3Api::Client.new
       @keys.each do |key|
         api.send(key).should eql key
@@ -54,9 +53,6 @@ describe Diablo3Api::Client do
           api.send("#{key}").should eql @config[key]
         end
       end
-
     end
-
   end
-
 end
