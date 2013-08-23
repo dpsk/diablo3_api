@@ -1,6 +1,5 @@
 require 'spec_helper'
 describe 'configuration' do
-
   Diablo3Api::Configuration::VALID_CONFIG_KEYS.each do |key|
     describe ".#{key}" do
       it 'should return the default value' do

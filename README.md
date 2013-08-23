@@ -2,7 +2,7 @@
 
 # Diablo3Api
 
-Ruby Wrapper for Diablo 3 API that let you fetch your d3 profile
+Ruby wrapper for Diablo 3 API that let you fetch your D3 profile.
 
 ## Installation
 

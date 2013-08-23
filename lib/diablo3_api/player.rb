@@ -1,9 +1,7 @@
 require 'httparty'
 
 module Diablo3Api
-
   class Player
-
     attr_accessor :username
 
     include HTTParty
@@ -16,7 +14,5 @@ module Diablo3Api
     def profile
       self.class.get "/profile/#{self.username}/"
     end
-
   end
-
 end
