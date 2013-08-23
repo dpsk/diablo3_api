@@ -4,7 +4,7 @@ describe 'configuration' do
   Diablo3Api::Configuration::VALID_CONFIG_KEYS.each do |key|
     describe ".#{key}" do
       it 'should return the default value' do
-        Diablo3Api.send(key).should eql Diablo3Api::Configuration.const_get("DEFAULT_#{key.upcase}")
+        Diablo3Api.send(key).should eql Diablo3Api::Configuration.const_get("DEFAULT_#{key.to_s.upcase}")
       end
     end
   end
