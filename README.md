@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/dpsk/diablo3-api.png)](http://travis-ci.org/dpsk/diablo3-api)
+[![Build Status](https://travis-ci.org/dpsk/diablo3_api.png?branch=master)](https://travis-ci.org/dpsk/diablo3_api)
 
 # Diablo3Api
 
